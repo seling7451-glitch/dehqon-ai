@@ -1,0 +1,1 @@
+- [Dehqon AI first build](dehqon-ai-first-build.md) — keep the Uzbek mobile flow usable offline while the validated TFLite classifier is prepared.

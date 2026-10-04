@@ -1,0 +1,33 @@
+{
+  "programs": [
+    {
+      "title": "Tomchilatib sug‘orish uchun subsidiya",
+      "target": "Kichik va o‘rta fermerlar",
+      "amount_note": "Xarajatlarning ma’lum foizi qoplanadi",
+      "description": "Tomchilatib sug‘orish tizimini o‘rnatish uchun mablag‘ ajratiladi. Bu suvni tejashga va hosilni yaxshilashga yordam beradi.",
+      "who_can_apply": "Kichik fermer, o‘rta fermer, yirik xo‘jaliklar va ko‘p yillik ekinlar yetishtiruvchilari."
+    },
+    {
+      "title": "Yirik xo‘jaliklar uchun subsidiya",
+      "target": "Yirik fermer xo‘jaliklari",
+      "amount_note": "Katta hajmli investitsiyalar uchun imtiyozli qo‘llab-quvvatlash",
+      "description": "Yirik xo‘jaliklar uchun texnik va infratuzilmaga oid mablag‘lar beriladi. Ular quduq, suv tizimi va zamonaviy jihozlarni o‘rnatishi mumkin.",
+      "who_can_apply": "Yirik xo‘jaliklar, agroparklar va kooperativlar."
+    },
+    {
+      "title": "Oddiy oilaviy fermerlar uchun subsidiya",
+      "target": "Oilaviy dehqon xo‘jaliklari",
+      "amount_note": "Kichik xarajatlar uchun qisman qaytarib berish",
+      "description": "Oddiy dehqonlar uchun mexanizatsiya, suv tejash va maydonlarni yaxshilashga yordam beruvchi subsidiya mavjud.",
+      "who_can_apply": "Oddiy oilaviy dehqon xo‘jaliklari, qishloq aholisi, kichik fermerlar."
+    },
+    {
+      "title": "Suv tejash texnologiyasi",
+      "target": "Barcha fermerlar",
+      "amount_note": "Texnologik jihozlar uchun qisqa muddatli yordam",
+      "description": "Suv tejovchi quvurlar, tomchilar, sensor va avtomatlashtirilgan sug‘orish tizimlari uchun yordamlashish ko‘zda tutiladi.",
+      "who_can_apply": "Har qanday xo‘jalik yoki fermer, qayerda suvga ehtiyoj bor."
+    }
+  ],
+  "note": "Subsidiya miqdori va talablar viloyat va yili bo‘yicha o‘zgarishi mumkin. Aniq ma’lumot uchun mahalliy qishloq xo‘jaligi boshqaruvi yoki Agrosubsidiya platformasini tekshiring."
+}

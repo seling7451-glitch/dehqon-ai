@@ -1,0 +1,24 @@
+kind = "mobile"
+previewPath = "/dehqon-ai/"
+title = "Dehqon AI"
+description = "O'zbekiston fermerlari uchun o'zbek tilidagi aqlli yordamchi: o'simlik kasalliklarini aniqlash, ob-havo, sug'orish va subsidiya qo'llanmalari bir joyda."
+version = "1.0.0"
+id = "artifacts/dehqon-ai"
+router = "expo-domain"
+
+[[services]]
+name = "expo"
+ensurePreviewReachable = "/status"
+paths = [ "/dehqon-ai/" ]
+localPort = 23390
+
+[services.development]
+run = "pnpm --filter @workspace/dehqon-ai run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/dehqon-ai", "run", "build" ]
+run = [ "pnpm", "--filter", "@workspace/dehqon-ai", "run", "serve" ]
+
+[services.env]
+PORT = "23390"
+BASE_PATH = "/dehqon-ai/"

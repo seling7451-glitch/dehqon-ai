@@ -1,0 +1,27 @@
+{
+  "default_calculation_liters_per_hectare": 5000,
+  "methods": {
+    "Tomchilatib": {
+      "liters_per_hectare": 2000,
+      "description": "Tomchilatib sug‘orish - suvni tejash uchun eng yaxshi usul. Bir gektar uchun taxminan 2000 litr suv kerak bo‘ladi."
+    },
+    "Yomg‘irlatib": {
+      "liters_per_hectare": 5000,
+      "description": "Yomg‘irlatib sug‘orish - umumiy me’yor bo‘yicha bir gektar uchun taxminan 5000 litr suv kerak bo‘ladi."
+    },
+    "Yer ustidan": {
+      "liters_per_hectare": 8000,
+      "description": "Yer ustidan sug‘orishda suv ko‘proq sarflanadi. Bir gektar uchun taxminan 8000 litr suv kerak bo‘ladi."
+    }
+  },
+  "crop_guides": {
+    "G‘o‘za": { "liters_per_hectare": 6000, "note": "Qurg‘oqchilik davrida va faol o‘sish bosqichida suv miqdorini nazorat qiling." },
+    "G‘alla": { "liters_per_hectare": 3500, "note": "Yomg‘ir ko‘p bo‘lsa sug‘orishni qisqartiring." },
+    "Makkajo‘xori": { "liters_per_hectare": 4500, "note": "Gullash bosqichida suvni yetarli bering." },
+    "Bog‘ va uzum": { "liters_per_hectare": 5000, "note": "Ildiz yaqinidagi tuproq namligini kuzatib boring." },
+    "Poliz ekinlari": { "liters_per_hectare": 4200, "note": "Tuproqdagi namlikni tez-tez tekshiring." }
+  },
+  "formula": {
+    "liters_per_hectare": "1 gektar = 10,000 m². Agar 1 m² uchun 0.5 litr bo‘lsa, 1 gektar uchun 5000 litr bo‘ladi."
+  }
+}
